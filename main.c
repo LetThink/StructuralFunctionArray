@@ -2,12 +2,12 @@
 #include "function.h"
 #include <stdio.h>
 extern FuncStruct funcCall[];
-typedef int (*pFun) (ExecuteStr *); //º¯ÊýÖ¸Õë
-static  pFun CmdFunArray[256]; //º¯Êý±í
-static  pFun * const pfun = CmdFunArray; //º¯ÊýÊý×é
+typedef int (*pFun) (ExecuteStr *); //å‡½æ•°æŒ‡é’ˆ
+static  pFun CmdFunArray[256]; //å‡½æ•°è¡¨
+static  pFun * const pfun = CmdFunArray; //å‡½æ•°æ•°ç»„
 int main()
 {
-	int i=0;
+    int i=0;
     CmdFunArray[0] = Function1;
     CmdFunArray[1] = Function2;
     CmdFunArray[2] = Function3;
