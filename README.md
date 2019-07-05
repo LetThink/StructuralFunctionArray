@@ -1,6 +1,9 @@
 # StructuralFunctionArray
+
   ##定义结构体指针函数数组：
+
   ###函数实现
+  
             int Function1(int i)
             {
                   printf("\r\n%d -> Call Back Function1",i);
@@ -14,6 +17,7 @@
             }
             
   ###函数数组表对应相应的函数
+  
             CmdFunArray[0] = Function1;
             CmdFunArray[1] = Function2;
             CmdFunArray[2] = Function3; 
