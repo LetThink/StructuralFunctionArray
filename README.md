@@ -37,6 +37,6 @@
          if (strcmp(funcCall[i].Func[0].FucStr,"Function2")==0)
         {
           printf("\r\n %s",funcCall[i].Func[0].FucStr);
-          pfun[i](funcCall[i].m_no);
+          funcCall[i].Func[0].Execute(i);
         }
 ![img](https://github.com/LetThink/StructuralFunctionArray/blob/master/result.png)
